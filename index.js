@@ -9,7 +9,7 @@ const {
     MessageSelectMenu, 
     Permissions  
   } = require("discord.js");
-  
+  const dotenv = require("dotenv");
   const client = new Client({ intents: 32767 });
   
   function loadAliasesToBot() {
