@@ -36,7 +36,7 @@ const {
   client.config = require(`${process.cwd()}/config`);
   require("./handler")(client);
   client.prefix = prefix;
-  client.login(config.token || process.env.token);
+  client.login(config.token || process.env.TOKEN);
   
   require("events").EventEmitter.defaultMaxListeners = 9999999;
   
