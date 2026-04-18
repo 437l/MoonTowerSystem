@@ -192,7 +192,7 @@ if (Word && message.content.startsWith(Word[0].Word)) {
       }
       
       await message.delete();
-          }else
+          } else {
 
      if (!message.member.permissions.has('ADMINISTRATOR'))return;
      if (message.content.startsWith("خط")|| message.content.startsWith("line")){
@@ -200,5 +200,6 @@ if (Word && message.content.startsWith(Word[0].Word)) {
           message.channel.send({ content: [image] }).then(() => {
         message.delete();
 });
+}
 }
 }
