@@ -15,6 +15,7 @@ const {
   function loadAliasesToBot() {
   }
   
+  
   const fs = require("fs");
   const ms = require(`ms`);
   const Discord = require("discord.js");
